@@ -4,7 +4,9 @@ Pod::Spec.new do |spec|
   spec.summary      = "A Boolean value for `Collection`s that returns `true` if they are not empty."
 
   spec.description  = <<-DESC
-A Boolean value for `Collection`s that returns `true` if they are not empty.
+A Boolean value for `Collection`s that returns `true` if they are not empty. It
+may seem silly, but it can be more readable than using a ! in front of isEmpty,
+especially in a long chain of variables.
                    DESC
 
   spec.homepage     = "https://github.com/SlaunchaMan/IsNotEmpty"
